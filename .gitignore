@@ -1,0 +1,25 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+tmp/
+
+# Dependency directories
+vendor/
+
+# Configuration / Secrets (CRITICAL)
+.env
+*.env
+auth.key
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+
+# OS specific files
+.DS_Store
+Thumbs.db
